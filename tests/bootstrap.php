@@ -11,8 +11,8 @@ declare(strict_types=1);
 require_once dirname(dirname(__FILE__)) . '/vendor/autoload.php';
 
 use Hyperf\Config\Config;
+use Hyperf\Context\ApplicationContext;
 use Hyperf\Contract\ConfigInterface;
-use Hyperf\Utils\ApplicationContext;
 use HyperfExt\Mail\Contracts\MailManagerInterface;
 use HyperfExt\Mail\MailManager;
 use Mockery as m;

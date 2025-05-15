@@ -10,12 +10,13 @@ declare(strict_types=1);
  */
 namespace HyperfExt\Mail;
 
-use Hyperf\Utils\ApplicationContext;
-use Hyperf\Utils\Collection;
+use Hyperf\Collection\Collection;
+use Hyperf\Context\ApplicationContext;
 use HyperfExt\Contract\HasLocalePreference;
 use HyperfExt\Contract\HasMailAddress;
 use HyperfExt\Mail\Contracts\MailableInterface;
 use HyperfExt\Mail\Contracts\MailManagerInterface;
+use function Hyperf\Tappable\tap;
 
 class PendingMail
 {
