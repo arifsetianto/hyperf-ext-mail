@@ -37,7 +37,6 @@
         "ext-json": "*",
         "ext-swoole": ">=4.5",
         "hyperf-ext/contract": "~2.2.0",
-        "hyperf/async-queue": "~3.1.0",
         "hyperf/command": "~3.1.0",
         "hyperf/config": "~3.1.0",
         "hyperf/devtool": "~3.1.0",
@@ -48,6 +47,7 @@
         "hyperf/logger": "~3.1.0",
         "hyperf/translation": "~3.1.0",
         "hyperf/view": "~3.1.0",
+        "menumbing/async-queue": "^1.0",
         "symfony/mailer": "^6.0.5"
     },
     "require-dev": {
@@ -69,6 +69,8 @@
         "symfony/sendinblue-mailer": "Required to use the Sendinblue mail driver.",
         "symfony/oh-my-smtp-mailer": "Required to use the OhMySMTP mail driver."
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "sort-packages": true
     },
